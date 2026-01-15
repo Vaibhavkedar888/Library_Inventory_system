@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(120deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+}
